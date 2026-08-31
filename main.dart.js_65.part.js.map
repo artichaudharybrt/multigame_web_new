@@ -1,0 +1,16 @@
+{
+  "version": 3,
+  "engine": "v2",
+  "file": "main.dart.js_65.part.js",
+  "sourceRoot": "",
+  "sources": ["../../../../../development/flutter/packages/flutter/lib/src/widgets/tween_animation_builder.dart","../../../../../development/flutter/packages/flutter/lib/src/widgets/framework.dart","../../../../../development/flutter/packages/flutter/lib/src/animation/tween.dart","../../../../../development/flutter/packages/flutter/lib/src/widgets/implicit_animations.dart"],
+  "names": ["TweenAnimationBuilder","TweenAnimationBuilder.createState","_TweenAnimationBuilderState.initState","_TweenAnimationBuilderState.forEachTween","_TweenAnimationBuilderState.build","_TweenAnimationBuilderState.forEachTween.<anonymous function>","","animation","evaluate","widget"],
+  "mappings": "A;;;;;EA+GQA;;;;IAQJA,C;;;;;;;;;;;;;;;;;;;;;;;;;;;EA4DEC;iBALoDA;MACtDA,qDAIEA,mDAHJA;K;;;eAQKC;;kBACHA,sBCouBcA,QAAOA;YDnuBNA;qBAAyBA;MAClCA;gBACFA;MAAeA,cAAFA,UAA0BA;QACzCA,wBAAWA;IAEfA,C;kBAGKC;MAKHA;MAOQA,KAPRA,gDAOQA,IANJA,oBAAQA,qBCqtBEA,QAAOA,MDrtBmBA,MAAKA;IAO/CA,C;WAGOC;;kBC2sBSA;QAAOA;gBD1sBUA;MAAjBA,EAA8BA;MAA5CA,SAAcA,yBE7I2BA,kBC0SRA,uBD1S4BA,oBDu1B/CA,QAAOA,ODzsBvBA;K;;;;UAZ+CC;MAEnCA,sBAAMA;IAGPA,C",
+  "x_org_dartlang_dart2js": {
+    "minified_names": {
+      "global": "",
+      "instance": ""
+    },
+    "frames": "w9CA+KWMuD;gEAAAAmD;+IAUSG4B;0XAeWAc;8IAWpBA6C;2EAAqCDkB;AAAWDuB;AAAXCoB;AAAuBCe;"
+  }
+}

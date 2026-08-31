@@ -1,0 +1,16 @@
+{
+  "version": 3,
+  "engine": "v2",
+  "file": "main.dart.js_197.part.js",
+  "sourceRoot": "",
+  "sources": ["../../../lib/shared/table_card_game/data/table_card_game_socket.dart","org-dartlang-sdk:///dart-sdk/lib/_internal/js_runtime/lib/js_string.dart","org-dartlang-sdk:///dart-sdk/lib/_internal/js_runtime/lib/core_patch.dart","org-dartlang-sdk:///dart-sdk/lib/_internal/js_runtime/lib/js_number.dart"],
+  "names": ["TableCardGameSocket._userId","JSString.isNotEmpty","TableCardGameSocket.tablePayload","TableCardGameSocket.connect","TableCardGameSocket.dispose","TableCardGameSocket.connect.onConnect","TableCardGameSocket.connect.onDisconnect","TableCardGameSocket.connect.onConnectError","TableCardGameSocket.connect.bindMap","TableCardGameSocket.connect.bindMap.handler","TableCardGameSocket.connect.bindMap.<anonymous function>","TableCardGameSocket.connect.<anonymous function>","TableCardGameSocket.connect.onRoom","TableCardGameSocket.connect.onTurnTimerEvent","_authFields","isEmpty","isFinite","isNotEmpty","tryParse"],
+  "mappings": "A;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;qCAsCUA;MACoBA;cAANA;4DAAMA;wBCuXRC;QDtXaD,QAGjCA;MADSA,OADeA;MACtBA,2CACFA;K;kBAQqBE;MALJA;;;QAAaA;eACJA;;QADIA;;;MAKuBA,sCAH5CA;MAKMA;MACCA;MAHqCA,SAIhDA;K;aAEAC;MACYA;kCAAUA;aACXA;aAMGA;aAKEA;aAQPA;MAsBZA;MACAA;MACAA;gBACAA;cAASA;MAMTA,sBAAoBA,wDAAyBA;MAC7CA,6BAA2BA,wDAAyBA;MACpDA,sBAAoBA,wDAAyBA;MAC7CA,uBAAqBA,wDAA0BA;MAC/CA,qBAAmBA,wDAAqBA;MACxCA,kBAAgBA,wDAAqBA;MACrCA,sBAAoBA,wDAAyBA;MAC7CA,oBAAkBA,wDAAuBA;MACzCA,qBAAmBA,wDAAuBA;MAC1CA,yBAAuBA,wDAAuBA;MAC9CA,sBAAoBA,yDAAuBA;MAC3CA,wBAAsBA;MAEXA;MAKXA;MACAA,QAASA;MAEYA;MAQrBA;MACAA;MACAA,QAASA;iBAKUA;WAAnBA;MACAA;QAAuBA;IACzBA,C;aAEKC;MACHA;oBAAgBA,cAAhBA;QACEA,EADFA;MAGAA;IACFA,C;;;;UA/FEC;mBACEA;;aAEAA;;;IACFA,C;;;;UAEAC;mBACEA;;aACAA;;;IACFA,C;;;;UAEAC;;iBACEA;;MACYA;;QAAmBA;aAE/BA;;;aACAA;;;IACFA,C;;;;UAEAC;MACcA;;iBAiBZA;;MACAA,aAASA;IACXA,C;;;;UAnBEC;MACwBA;MACbA;QAKHA;;QAHUA,4CACRA;MAERA;MACaA;;MACbA;;;;UACYA;UAAIA;;;;UAA2BA;iBAEzCA;;;;eAEFA;;;IACFA,C;;;EAGeC;UAANA;MAAMA,6BAAWA,YAAOA,SAAQA;K;;;;UAMlCC;;kBACPA;+BAAsBA;MACtBA,4BAAyBA;MACzBA,+BAA4BA;IAC7BA,C;;;;UAEmBA;MAAOA,kCAAgBA;K;;;;UAChBA;MAAOA,kCAAgBA;K;;;;UAC9BA;MAAOA,QAAgBA;K;;;;UACtBA;MAAOA,mCAAiBA;K;;;;UAC1BA;MAAOA,8BAAYA;K;;;;UACtBA;MAAOA,8BAAYA;K;;;;UACfA;MAAOA,QAAgBA;K;;;;UACzBA;MAAOA,QAAcA;K;;;;UACpBA;MAAOA,QAAcA;K;;;;UACjBA;MAAOA,QAAcA;K;;;;UACxBA;MAAOA,QAAcA;K;;;;UACnBA;IAAMA,C;;;;UAE5BC;mBAEEA;;;IACFA,C;;;EAGeD;UAANA;MAAMA,4CAA0BA,QAAOA;K;;;;UAEhDE;ME4IkBA;sEF3I4CA;MG/D3CA;QHgEaA,MAIhCA;MAHgBA,8BAAFA;eAEZA;;;IACFA,C;;;;UAISF;mBACPA;iBAAyBA;MAAzBA;MACAA;IACDA,C",
+  "x_org_dartlang_dart2js": {
+    "minified_names": {
+      "global": "",
+      "instance": ""
+    },
+    "frames": "grIAwCuBiBACwXGFuB,A;uID5WfDoQ;sCAAAAsH;ipOA+E4CImF;kBAC7BFuC;"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "version": 3,
+  "engine": "v2",
+  "file": "main.dart.js_66.part.js",
+  "sourceRoot": "",
+  "sources": ["../../../lib/widgets/verse_image.dart","../../../../../development/flutter/packages/flutter/lib/src/widgets/basic.dart","../../../lib/generated/assets.dart"],
+  "names": ["VerseImage.build","","image"],
+  "mappings": "A;;;;;;;;;;;;;;;;;;;;WAmBSA;MACLA;aC+qEIA,mBD9qEOA,UEs7BEA,2DAeAA,yEF/7BoBA,uBAFxBA,yBAFGA,6CEo8BFA,sCFn8BCA,eAMbA;K",
+  "x_org_dartlang_dart2js": {
+    "minified_names": {
+      "global": "",
+      "instance": ""
+    },
+    "frames": "swBAoBWCmB;UAEmCCoI;6FAAAAsC;"
+  }
+}

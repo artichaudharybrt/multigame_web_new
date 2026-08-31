@@ -1,0 +1,16 @@
+{
+  "version": 3,
+  "engine": "v2",
+  "file": "main.dart.js_18.part.js",
+  "sourceRoot": "",
+  "sources": ["org-dartlang-sdk:///dart-sdk/lib/_internal/js_runtime/lib/math_patch.dart","../../../../../development/flutter/packages/flutter/lib/src/animation/curves.dart"],
+  "names": ["ElasticOutCurve.transformInternal","ElasticOutCurve.toString","pow","sin"],
+  "mappings": "A;;;;;;;;;;;;EA6DSA;uBC+xCAA;MAELA,8BDh0CuBA,iDCi0CzBA;K;cAGOC;MACLA,6BACFA;K",
+  "x_org_dartlang_dart2js": {
+    "minified_names": {
+      "global": "",
+      "instance": ""
+    },
+    "frames": "ifC81CgBEuD;0CAAyBCiD;"
+  }
+}

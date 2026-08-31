@@ -1,0 +1,16 @@
+{
+  "version": 3,
+  "engine": "v2",
+  "file": "main.dart.js_9.part.js",
+  "sourceRoot": "",
+  "sources": ["../../../lib/services/games_api.dart","org-dartlang-sdk:///dart-sdk/lib/core/uri.dart","../../../lib/services/app_logger.dart","org-dartlang-sdk:///dart-sdk/lib/_internal/js_runtime/lib/js_string.dart","../../../../../.pub-cache/hosted/pub.dev/http-1.6.0/lib/src/response.dart","org-dartlang-sdk:///dart-sdk/lib/convert/json.dart","../../../lib/config/api_config.dart"],
+  "names": ["fetchRoundsHistory","ApiConfig.matchesRoundsHistory","JSString.isNotEmpty","Response.body","_encodingForHeaders","apiStart","body","encodeComponent","isEmpty","isNotEmpty","jsonDecode","matchesRoundsHistory"],
+  "mappings": "A;;;;;EA6EQA;;sBANUA;MAMVA;IA0CRA,C;2BAhDkBA;MAMVA;;;gEANUA;QAMVA;;;;;;cAA4BA;cC4oCpBC,2EAA2CA;cDzoCzCD;;cE5DJA,sEF8DuEA,uEE/DnBA;cFiEhCA;cACtBA;wCGyUUE;gBHxUoCF;cAC1BA;cAGbA;mCAAWA,0CAAXA;;;;gCACQA,8BAA8BA;2BAKhCA;;cIpBrBG,mCAA6BA,2BA/CQH,WAASA,cAAOA,WJoEzBA;;gBAA2BA,oCIrBvDG,+BAA6BA,2BA/CQH,WAASA,cAAOA;;;gBA+CrDG,oCAA6BA,2BA/CQH,WAASA,cAAOA;;cJgE7CA;;;gBIjBRG,oCAA6BA,2BA/CQH,WAASA,cAAOA,WDiYnCA;;gBHjVPA;;sCAwBiCA;;gBAAPA;;;;;gBK0DnCA,4CDnFFG,+BAA6BA,2BA/CQH,WAASA,cAAOA;gBJ4E3CA;gBACJA;gBACWA;gBACjBA;;kBACYA;;oBAERA;oBACQA;sBAAiBA;;;gBAG7BA;;;;;sCAd4CA;;gBAgB5CA;;;;;cA9CcA;;;MAMVA;IANUA,C",
+  "x_org_dartlang_dart2js": {
+    "minified_names": {
+      "global": "",
+      "instance": ""
+    },
+    "frames": "ilCA8EyBWAM0EYJgH,A;gFNtEzBFsE;uEAAAAqC;wJAImBIAG0ULD+B,A;+eH/TCFAIpENF8D,oC;oGJoEsCEAIpEtCF0D,gI;AJoE2EEAIpE3EF+D,oE;wIJwEMEAIxENF+D,oC;AJwEWIoD;gQAGZE4C;AAAoBJAI3EnBF0D,6D;"
+  }
+}

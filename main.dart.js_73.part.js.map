@@ -1,0 +1,16 @@
+{
+  "version": 3,
+  "engine": "v2",
+  "file": "main.dart.js_73.part.js",
+  "sourceRoot": "",
+  "sources": ["../../../lib/widgets/game_timer_phase.dart","../../../../../development/flutter/packages/flutter/lib/src/widgets/basic.dart","../../../../../development/flutter/packages/flutter/lib/src/painting/box_decoration.dart","org-dartlang-sdk:///lib/ui/painting.dart"],
+  "names": ["GameTimerWatch.build","GameTimerWatch.build.<anonymous function>","GameTimerWatch._fallbackCircle","Color.withOpacity","Color.red","Color.green","Color.blue","Color.withAlpha","","_fallbackCircle","blue","green","red","value","withAlpha","withOpacity"],
+  "mappings": "A;;;;;;;;;;;;;;;;;;;;;;WAqBSA;MAOOA;iBALHA;4EAGgBA,0DAOHA,qEADFA;iBAITA;;MAdXA,OAAOA,YCkgJHA,aD9/IqBA,wBCkgJpBA,cACAA,SDlgJSA,qBAQRA,oDAESA,4BACEA,8FAEgBA,oJAOnCA;K;;;;UAdwBC;MAiBfA;iBAjB+CA;MAAhBA,0DE2DlCC,oBCmBSC,sBA7CEC,CHXGH,sCGWHI,CHXGJ,qCGWHK,CHXGL,uCACCA,qBAAWA,sCAFVA,+DArBuCA;K",
+  "x_org_dartlang_dart2js": {
+    "minified_names": {
+      "global": "",
+      "instance": ""
+    },
+    "frames": "6wCAyBaQa;wBAAAAuB;8eAQ6BCmC;6EAAAAAAoBxBDoB,AAEIOAG6DXDsBALkBFAAhCECC,A,A,A,sCHxBTEAG6DXDAALuBHAA9BDEC,A,A,A,qCH1BXEAG6DXDAAL8BJAA5BTGC,A,A,A,iK;"
+  }
+}

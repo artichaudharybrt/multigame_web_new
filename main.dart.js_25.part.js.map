@@ -1,0 +1,16 @@
+{
+  "version": 3,
+  "engine": "v2",
+  "file": "main.dart.js_25.part.js",
+  "sourceRoot": "",
+  "sources": ["../../../../../.pub-cache/hosted/pub.dev/flutter_bloc-8.1.6/lib/src/bloc_consumer.dart","../../../../../development/flutter/packages/flutter/lib/src/widgets/framework.dart","../../../../../.pub-cache/hosted/pub.dev/provider-6.1.5+1/lib/src/provider.dart"],
+  "names": ["BlocConsumer","BlocConsumer.createState","_BlocConsumerState.initState","_BlocConsumerState.didUpdateWidget","_BlocConsumerState.didChangeDependencies","_BlocConsumerState.build","_BlocConsumerState.build.<anonymous function>","_BlocConsumerState_build_closure","","ReadContext|read","_bloc","context","widget"],
+  "mappings": "A;;;;;EA+DQA;;;;IAOcA,C;;;;;;;;;;;;;;;;;;;;;;;;;;;;EAoDhBC;iBAxBsBA;MAAiBA,gCAwBvCA,4CAxBiEA;K;;;eA6BhEC;MACGA;;WC6xBQA,QAAOA;gBAiCdA;QAAQA;MCpRCA,uCFziBeA;WAL1BA;IAMPA,C;qBAGKC;MACGA;;gBCwzBCA;QAAQA;MCpRCA,4CFniB0BA;WCsxB5BA,QAAOA;MDpxBjBA;aAbCA;IAcPA,C;2BAGKC;MACGA;;WC+wBQA,QAAOA;gBAiCdA;QAAQA;MCpRCA,yCF3hBoBA;gBAnB/BA;;MAoBLA;aApBKA;IAqBPA,C;WAGOC;MACLA;WCwwBcA,QAAOA;;aDrwBXA;sCAAgBA;gBA5BrBA;;MA8BLA,OAAOA,mBAGMA,8DCgwBCA,QAAOA,gBDnwBdA,UAUTA;K;;;;UAZ4BC;mBAAoBA,MA5BzCA;;MA4B+BA,kBAAsBA;K;cAAhCC;;K;;;UAKbD;MACEA,aAAPA;eC+vBMA,QAAOA;MD/vBjBA;QACSA,EC8vBCA,QAAOA,qBD9vBCA;QC8vBRA,QAAOA;MD5vBjBA,WACDA;K;cALUC;;K",
+  "x_org_dartlang_dart2js": {
+    "minified_names": {
+      "global": "",
+      "instance": ""
+    },
+    "frames": "yyCAkG6CQ8C;2CAAAA4C;kJA+BjCImC;AAAeD+C;AAAQFuC;4BAA/BCwC;+IAMkCC+C;AAAQF4C;4BACtBGyB;4CACQF6C;iIAMfEmC;AAAeD+C;AAAQFyC;iCAChCCoF;8BAAeA0C;yEAKfEsD;sIAMIFoF;wFACGEwB;uKAJmCFoF;uOAMtCEqD;sCACFA6B;4BAEKAyB;"
+  }
+}

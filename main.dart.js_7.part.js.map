@@ -1,0 +1,16 @@
+{
+  "version": 3,
+  "engine": "v2",
+  "file": "main.dart.js_7.part.js",
+  "sourceRoot": "",
+  "sources": ["../../../lib/services/games_api.dart","../../../lib/services/socket_service.dart","org-dartlang-sdk:///dart-sdk/lib/_internal/js_runtime/lib/core_patch.dart"],
+  "names": ["GamesApiException","_parseSocketTimerInt","GamesApiException.toString","tryParse"],
+  "mappings": "A;;;;;EA80BEA;;;;IAAkDA,C;;;;wBCv0B/CC;MACHA;MAASA;QAAQA,WAgBnBA;MAfEA;QAAiBA,OAAOA,gCAe1BA;MAdEA;QAAoBA,OCiPAA,sBDjPoBA,sCAc1CA;MAbWA;;QACGA;QACVA;UACYA,kBADZA;UAEQA;YAAQA,QASpBA;UARMA;YAAcA,OAAOA,6BAQ3BA;UAPMA;YC0OgBA,0BDzOSA;YACvBA;cAAeA,QAKvBA;;;;MADEA,WACFA;K;;;;;;cD4zBSC;MAAcA,mBAAOA;K",
+  "x_org_dartlang_dart2js": {
+    "minified_names": {
+      "global": "",
+      "instance": ""
+    },
+    "frames": "owBCUiCGsB;yfAQXA0B;"
+  }
+}

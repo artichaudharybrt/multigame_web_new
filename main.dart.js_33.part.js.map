@@ -1,0 +1,16 @@
+{
+  "version": 3,
+  "engine": "v2",
+  "file": "main.dart.js_33.part.js",
+  "sourceRoot": "",
+  "sources": ["../../../lib/core/responsive.dart","../../../../../development/flutter/packages/flutter/lib/src/widgets/media_query.dart","../../../../../development/flutter/packages/flutter/lib/src/widgets/basic.dart","../../../../../development/flutter/packages/flutter/lib/src/painting/edge_insets.dart","org-dartlang-sdk:///dart-sdk/lib/_internal/js_runtime/lib/math_patch.dart"],
+  "names": ["GameTopBarRow.build","MediaQuery.paddingOf","GameTopBarRow.build.<anonymous function>","GameTopBarRow.build.<anonymous function>.sideSlot","","_of","fromLTRB","min","of","paddingOf"],
+  "mappings": "A;;;;;;;;;;;;;;;;;;;;;;;;;;WAqYSA;MACmBA;;kBCs2BFC,uCAsPWD,uCAtPqCC,KAsP5BD;MClyCZA,oEAA4DA;MAmgEtFA,eF1zDaA;MAQjBA,qBGVIA,yBHIOA,eAAeA,eACfA,cACAA,gBAAgBA,gBAChBA,UAKFA,iBACIA,qDAqCfA;K;;;;UArCeE;MIzYiBA,mBJ0YFA;2BACQA,IAALA;aAIVA,2CAFoBA,gCI7YXA;iBJ+ZXA;MAFbA,OAAOA,OACKA,iBACRA,YAASA,QAAgBA,kBACzBA,YACSA,UACEA,gCAEEA,UADKA,6BAKlBA,YAASA,SAAiBA,4GAG/BA;K;;;;UA5BCC;MACEA;aAAOA,YE48DXA,iCFx8DeA,4BACOA,+BAJTA,OAUXA;K",
+  "x_org_dartlang_dart2js": {
+    "minified_names": {
+      "global": "",
+      "instance": ""
+    },
+    "frames": "siCAuY+BSAC2lCzBJuC,uCAAAAK,gB;AD1lCyBGqF;AASpBJe;qCAPgBEyB;mVAYICmB;6KACMA8D;keAMhBHiC;"
+  }
+}
