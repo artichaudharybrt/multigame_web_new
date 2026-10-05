@@ -136,24 +136,11 @@
   </style>
 </head>
 <body>
-  <script>
-    // Drop stale Flutter caches so version/UI updates show up immediately.
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.getRegistrations().then(function (regs) {
-        regs.forEach(function (reg) { reg.unregister(); });
-      });
-    }
-    if (window.caches) {
-      caches.keys().then(function (keys) {
-        keys.forEach(function (key) { caches.delete(key); });
-      });
-    }
-  </script>
   <div id="app-loading" aria-live="polite">
     <div class="spinner" aria-hidden="true"></div>
     <div class="brand">Multi Games</div>
     <div class="msg">Loading…</div>
   </div>
-  <script src="flutter_bootstrap.js?v=2.4.2" async></script>
+  <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
