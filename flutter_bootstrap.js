@@ -41,6 +41,7 @@ _flutter.buildConfig = {"engineRevision":"587c18f873b8ab57330422bce09047420d9c7f
 // 1) Visible splash so a long DDC/CanvasKit load is not a "dead" black page
 // 2) Force multi-surface CanvasKit (Chrome blank/black screen workaround)
 // 3) Surface init failures instead of hanging forever on #0b0b0f
+// 4) Drop stale Flutter service workers / Cache Storage so deploys actually show up
 
 (function () {
   const splash = document.getElementById('app-loading');
@@ -70,6 +71,38 @@ _flutter.buildConfig = {"engineRevision":"587c18f873b8ab57330422bce09047420d9c7f
     if (!splash) return;
     splash.classList.add('hide');
     setTimeout(() => splash.remove(), 280);
+  };
+
+  // Old flutter_service_worker.js installs keep serving cached main.dart.js after
+  // redeploy. Unregister + clear Flutter caches before loading the new build.
+  const clearStaleWebCache = async () => {
+    try {
+      if ('serviceWorker' in navigator) {
+        const regs = await navigator.serviceWorker.getRegistrations();
+        await Promise.all(regs.map((reg) => reg.unregister()));
+      }
+    } catch (err) {
+      console.warn('[Multi Games] service worker unregister failed:', err);
+    }
+    try {
+      if (window.caches && caches.keys) {
+        const keys = await caches.keys();
+        await Promise.all(
+          keys
+            .filter(
+              (k) =>
+                k.startsWith('flutter-') ||
+                k.includes('flutter') ||
+                k === 'flutter-app-manifest' ||
+                k === 'flutter-temp-cache' ||
+                k === 'flutter-app-cache',
+            )
+            .map((k) => caches.delete(k)),
+        );
+      }
+    } catch (err) {
+      console.warn('[Multi Games] cache clear failed:', err);
+    }
   };
 
   if (isDebug) {
@@ -115,25 +148,30 @@ _flutter.buildConfig = {"engineRevision":"587c18f873b8ab57330422bce09047420d9c7f
     canvasKitVariant: 'chromium',
   };
 
-  _flutter.loader
-    .load({
-      config: flutterConfig,
-      onEntrypointLoaded: async function (engineInitializer) {
-        try {
-          setMsg(isDebug ? 'Starting engine (debug)…' : 'Starting engine…');
-          const appRunner = await engineInitializer.initializeEngine(flutterConfig);
-          setMsg('Starting app…');
-          await appRunner.runApp();
-          clearTimeout(watchdog);
-          requestAnimationFrame(() => {
-            setTimeout(hideSplash, 120);
-          });
-        } catch (err) {
-          clearTimeout(watchdog);
-          showError(err);
-        }
-      },
-    })
+  clearStaleWebCache()
+    .catch(() => {})
+    .then(() =>
+      _flutter.loader.load({
+        // Explicitly skip Flutter PWA SW — stale workers hide new deploys.
+        serviceWorkerSettings: null,
+        config: flutterConfig,
+        onEntrypointLoaded: async function (engineInitializer) {
+          try {
+            setMsg(isDebug ? 'Starting engine (debug)…' : 'Starting engine…');
+            const appRunner = await engineInitializer.initializeEngine(flutterConfig);
+            setMsg('Starting app…');
+            await appRunner.runApp();
+            clearTimeout(watchdog);
+            requestAnimationFrame(() => {
+              setTimeout(hideSplash, 120);
+            });
+          } catch (err) {
+            clearTimeout(watchdog);
+            showError(err);
+          }
+        },
+      }),
+    )
     .catch((err) => {
       clearTimeout(watchdog);
       showError(err);
