@@ -12,8 +12,8 @@ E=c[77]
 B=a.updateHolder(c[31],B)
 B.wS.prototype={
 u(d){var y=this,x=null
-return new A.a3(y.f,D.bu("assets/games_assets/common/ic_verse.webp",C.q,x,x,x,x,x,x,x,!1,C.T,y.e,x,!1,y.c,!1,x,!1,x,x,E.S,x,"Versus",y.d),x)}}
+return new A.a2(y.f,D.bu("assets/games_assets/common/ic_verse.webp",C.p,x,x,x,x,x,x,x,!1,C.T,y.e,x,!1,y.c,!1,x,!1,x,x,E.S,x,"Versus",y.d),x)}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
 y(B.wS,A.O)})()
 A.da(b.typeUniverse,JSON.parse('{"wS":{"O":[],"c":[]}}'))};
-(a=>{a["u9wEvK8/OpajjrfQ8ygLh5SedXA="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["7ppzeRNzdvSHQCZXtFHPbPp0vCE="]=a.current})($__dart_deferred_initializers__);
