@@ -5,7 +5,7 @@ Ks:function Ks(d,e,f){this.c=d
 this.d=e
 this.a=f},
 atc:function atc(d){this.a=d},
-bDQ(d){var y,x,w,v,u="assets/coin/coin_"
+bDW(d){var y,x,w,v,u="assets/coin/coin_"
 if(d<=0)return"assets/coin/coin_10.webp"
 if(C.b.t(D.aK,d))return u+d+".webp"
 y=C.b.gW(D.aK)
@@ -17,18 +17,18 @@ C=c[2]
 A=a.updateHolder(c[57],A)
 D=c[74]
 E=c[66]
-F=c[77]
+F=c[78]
 G=c[72]
 A.Ks.prototype={
-u(d){var y=null,x=this.d,w=E.bu(A.bDQ(this.c),C.p,y,y,y,y,y,y,new A.atc(this),!1,C.U,G.aj,y,!1,x,!1,y,!1,y,y,F.S,y,y,x)
+u(d){var y=null,x=this.d,w=E.bu(A.bDW(this.c),C.q,y,y,y,y,y,y,new A.atc(this),!1,C.U,G.aj,y,!1,x,!1,y,!1,y,y,F.T,y,y,x)
 return w}}
 var z=a.updateTypes([])
 A.atc.prototype={
 $3(d,e,f){var y=null,x=this.a,w=x.d
-return new B.G(w,w,B.aC(B.k(""+x.c,y,y,y,y,y,B.B(y,y,C.h,y,y,y,y,y,y,y,y,w*0.35,y,y,C.B,y,y,!0,y,y,y,y,y,y,y,y),y,y),y,y),y)},
-$S:16};(function inheritance(){var y=a.inherit
+return new B.G(w,w,B.aD(B.l(""+x.c,y,y,y,y,y,B.B(y,y,C.h,y,y,y,y,y,y,y,y,w*0.35,y,y,C.B,y,y,!0,y,y,y,y,y,y,y,y),y,y),y,y),y)},
+$S:15};(function inheritance(){var y=a.inherit
 y(A.Ks,B.O)
-y(A.atc,B.cY)})()
+y(A.atc,B.cZ)})()
 B.da(b.typeUniverse,JSON.parse('{"Ks":{"O":[],"c":[]}}'));(function constants(){var y=a.makeConstList
-D.aK=y([10,50,100,1000,5000],B.X("w<r>"))})()};
-(a=>{a["SmDXfWjym1r1p87b4W03vuNTEe4="]=a.current})($__dart_deferred_initializers__);
+D.aK=y([10,50,100,1000,5000],B.a0("w<r>"))})()};
+(a=>{a["fbjMavB7eOdOFFHrN8kdvYQERnA="]=a.current})($__dart_deferred_initializers__);
